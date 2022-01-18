@@ -29,7 +29,7 @@ export default {
       title: "Gallery images",
       name: "images",
       type: "array",
-      of: [{ type: "file" }],
+      of: [{ type: "image" }],
     },
   ],
   preview: {
