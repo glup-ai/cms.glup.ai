@@ -22,9 +22,14 @@ export default {
     {
       name: "model",
       title: "Model file",
-      type: "slug",
       type: "file",
       description: "The .pkl file containing the model",
+    },
+    {
+      title: "Gallery images",
+      name: "images",
+      type: "array",
+      of: [{ type: "file" }],
     },
   ],
   preview: {
