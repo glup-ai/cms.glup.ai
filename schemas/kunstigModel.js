@@ -20,6 +20,12 @@ export default {
         "The short name of the model, must not contain symbols or spaces",
     },
     {
+      name: "description",
+      title: "Description",
+      type: "string",
+      description: "Short description of the model",
+    },
+    {
       name: "model",
       title: "Model file",
       type: "file",
